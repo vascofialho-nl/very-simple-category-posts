@@ -21,7 +21,7 @@ function vjfnlccp_check_for_plugin_update($transient) {
 	$plugin_slug = plugin_basename(__FILE__);
 	$plugin_data = get_plugin_data(__FILE__);
 	$current_version = $plugin_data['Version'];
-	$remote_version = '1.0.0'; // Update manually or pull from GitHub API if needed
+	$remote_version = '1.0.1'; // Update manually or pull from GitHub API if needed
 
 	$update_url = 'https://github.com/vascofmdc/very-simple-category-posts/releases/download/' . $remote_version . '/very-simple-category-posts.zip';
 

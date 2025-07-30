@@ -9,7 +9,7 @@
 	Plugin URI: http://www.vascofialho.nl
 	Description: Adds a shortcode that displays all posts in the current category and highlights the current post.
 	Author: vascofmdc
-	Version: 1.0.0
+	Version: 1.0.1
 	Author URI: http://www.vascofialho.nl
 	License: GPL-2.0-or-later
 	License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -117,4 +117,16 @@ function vjfnlccp_display_readme_page() {
 
 	echo '</pre></div>';
 }
+
+/**
+ * Adds a "View Info" link under the plugin name in the Plugins list.
+ */
+function vjfnlccp_add_plugin_row_meta($links, $file) {
+	if ($file === plugin_basename(__FILE__)) {
+		$info_link = admin_url('options-general.php?page=vjfnlccp-readme');
+		$links[] = '<a href="' . esc_url($info_link) . '">' . esc_html__('View Info', 'very-simple-category-posts') . '</a>';
+	}
+	return $links;
+}
+add_filter('plugin_row_meta', 'vjfnlccp_add_plugin_row_meta', 10, 2);
 

@@ -4,7 +4,7 @@ Contributors: vascofmdc / vascofialho.nl
 Tags: category, posts, shortcode, current post
 Requires at least: 5.0
 Tested up to: 6.8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,10 +26,11 @@ Use the shortcode [current_category_posts] inside any single post or sidebar tex
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release.
+= 1.0.1 = 2025-07-30
+* Added a "View Info" link that leads to the readme viewer in the settings.
 
 == Upgrade Notice ==
 
-= 1.0.0 =
-First version.
+= 1.0.0 = 
+* First version.
+* Initial release on 2025-07-30
