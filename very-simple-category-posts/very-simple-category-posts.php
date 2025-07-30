@@ -9,7 +9,7 @@
 	Plugin URI: http://www.vascofialho.nl
 	Description: Adds a shortcode that displays all posts in the current category and highlights the current post.
 	Author: vascofmdc
-	Version: 1.0.2
+	Version: 1.0.3
 	Author URI: http://www.vascofialho.nl
 	License: GPL-2.0-or-later
 	License URI: https://www.gnu.org/licenses/gpl-2.0.html

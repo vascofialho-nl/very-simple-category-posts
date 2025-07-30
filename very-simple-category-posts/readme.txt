@@ -4,7 +4,7 @@ Contributors: vascofmdc / vascofialho.nl
 Tags: category, posts, shortcode, current post
 Requires at least: 5.0
 Tested up to: 6.8.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,8 +26,11 @@ Use the shortcode [current_category_posts] inside any single post or sidebar tex
 
 == Changelog ==
 
+= 1.0.3 = 2025-07-30:19:51
+* fixed code in updater.php
+
 = 1.0.2 = 2025-07-30:19:35
-* fixed code in updates file.
+* fixed code in updater.php
 
 
 = 1.0.1 = 2025-07-30
